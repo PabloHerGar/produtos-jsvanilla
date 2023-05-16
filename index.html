@@ -4,28 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Aplicación de productos</title>
   </head>
 
   <body>
     <h1>Productos</h1>
 
-    <form action="">
+    <form>
       <div>
         <label for="">Nombre</label>
-        <input type="text" maxlength="20" />
+        <input id="name" type="text" maxlength="20" />
       </div>
       <div>
         <label for="">Precio</label>
-        <input type="number" min="0" />
+        <input id="price" type="number" min="0" value="0" />
       </div>
-
       <div>
         <label for="">Año de salida</label>
-        <input type="number" min="1900" max="2023" />
+        <input id="release" type="number" min="1900" max="2023" value="2023" />
       </div>
-      <button>Enviar</button>
-      <button>Resetear</button>
+      <button type="submit">Enviar</button>
+      <button type="reset">Resetear</button>
     </form>
 
     <script src="app.js"></script>
