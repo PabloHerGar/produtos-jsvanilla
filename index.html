@@ -8,7 +8,26 @@
   </head>
 
   <body>
-    <h1>Hola Mundo</h1>
+    <h1>Productos</h1>
+
+    <form action="">
+      <div>
+        <label for="">Nombre</label>
+        <input type="text" maxlength="20" />
+      </div>
+      <div>
+        <label for="">Precio</label>
+        <input type="number" min="0" />
+      </div>
+
+      <div>
+        <label for="">Año de salida</label>
+        <input type="number" min="1900" max="2023" />
+      </div>
+      <button>Enviar</button>
+      <button>Resetear</button>
+    </form>
+
     <script src="app.js"></script>
   </body>
 </html>
